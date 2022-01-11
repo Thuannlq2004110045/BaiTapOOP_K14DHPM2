@@ -51,4 +51,25 @@ public class BankStructured {
         System.out.println("Account number: " + account_number);
         System.out.println("Account balance: " + account_balance);
     }
+
+    void withdraw(){//rút tiền
+
+    }
+
+    void deposit(){//gửi tiền
+
+    }
+
+    static void xyz(){
+        account_balance = 0;
+    }
+
+    void themNhanVienMoi(){
+        account_balance +=  100;
+
+    }
+
+    void inDanhSachNhanVien(){
+
+    }
 }
