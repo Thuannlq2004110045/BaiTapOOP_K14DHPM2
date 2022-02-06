@@ -3,11 +3,12 @@ package k14dhpm2.tuan1;
 public class TriangleTestDrive {
     public static void main(String[] args) {
         Triangle triangle = new Triangle();
-        triangle.name = "Hinh tam giac";
+        triangle.area = 16;
         triangle.color = "xanh";
+        triangle.fileSound = "HinhTamGiac.AIF";
 
         triangle.show();
-        triangle.xoay();
-        triangle.playMusic();
+        triangle.rotate();
+        triangle.play();
     }
 }

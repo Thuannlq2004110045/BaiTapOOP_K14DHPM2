@@ -3,12 +3,13 @@ package k14dhpm2.tuan1;
 public class CircleTestDrive {
     public static void main(String[] args) {
         Circle circle = new Circle();
-        circle.name = "Hinh tron";
+        circle.area = 16;
         circle.color = "do";
+        circle.fileSound = "HinhTron.AIF";
 
         circle.show();
-        circle.xoay();
-        circle.playMusic();
+        circle.rotate();
+        circle.play();
     }
 
 }
